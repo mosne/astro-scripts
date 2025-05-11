@@ -4,8 +4,10 @@
 # May 2025
 # Mosne Seestar preprocessing with drizzle 2x v1.0
 # 
+# Based on 
 # (C) Cyril Richard
 # Seestar_preprocessing
+# https://siril.org/tutorials/seestar/
 ########### PREPROCESSING SCRIPT ###########
 #
 # Script for Seestar Deep Sky images where 
