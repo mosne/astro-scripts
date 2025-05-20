@@ -57,6 +57,10 @@ stack r_pp_light rej 3 3 -norm=addscale -output_norm -rgb_equal -32b -out=result
 # flip if required
 mirrorx_single result
 
+#░░░█▀▄▀█░▄▀▀▄░█▀▀░█▀▀▄░█▀▀░░░█▀▀▄░█▀▀░▀█▀░█▀▀▄░▄▀▀▄
+#░░░█░▀░█░█░░█░▀▀▄░█░▒█░█▀▀░░░█▄▄█░▀▀▄░░█░░█▄▄▀░█░░█
+#░░░▀░░▒▀░░▀▀░░▀▀▀░▀░░▀░▀▀▀░░░▀░░▀░▀▀▀░░▀░░▀░▀▀░░▀▀░
+
 #save result using FITS keywords for the name
 load result
 save ../$OBJECT:%s$_$STACKCNT:%d$x$EXPTIME:%d$sec_T$CCD-TEMP:%d$degC_$DATE-OBS:dm12$
